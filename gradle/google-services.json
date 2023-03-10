@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "305742366167",
+    "project_id": "forlogin-a8ebc",
+    "storage_bucket": "forlogin-a8ebc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305742366167:android:b765bfdc98a81cb0ebf792",
+        "android_client_info": {
+          "package_name": "com.sungshin.Puleuspuleus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305742366167-r2is79e7eog8a26j3i74boikerthl4je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sungshin.Puleuspuleus",
+            "certificate_hash": "3095e7e2f5269802f8d917bc4d05d5b18daaf889"
+          }
+        },
+        {
+          "client_id": "305742366167-p27g55uis3ti5hrr2u1e3of6i26cud81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOCHtSZWy2dvVcDqk3jYTk9JpcO0j3Sb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305742366167-p27g55uis3ti5hrr2u1e3of6i26cud81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

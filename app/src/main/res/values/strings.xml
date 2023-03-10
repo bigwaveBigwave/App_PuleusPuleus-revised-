@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Puleuspuleus</string>
+    <string name="plant_info">식물 정보 안내</string>
+    <string name="strBtn1">Puleuspuleus</string>
+    <string name="strBtn2">반려 식물 알리미</string>
+    <string name="id">이메일을 입력하세요.</string>
+    <string name="idd">아이디</string>
+    <string name="password">비밀번호를 입력하세요.</string>
+    <string name="pw">비밀번호</string>
+    <string name="not_member">아직 회원이 아니신가요?</string>
+    <string name="member">회원가입</string>
+    <string name="login">로그인</string>
+    <string name="button1">시작하기</string>
+    <string name="button2">내 식물 돌보기</string>
+    <string name="button3">다른 식물 둘러보기</string>
+    <string name="button_my">MY</string>
+    <string name="button4">식물1</string>
+    <string name="button5">식물2</string>
+    <string name="button6">식물3</string>
+    <string name="main3_textview">돌보려는 식물을 선택해주세요</string>
+    <string name="button_plant1_info">나의 반려식물 정보</string>
+    <string name="button_plant1_water">물 주기 일정/알람 관리</string>
+    <string name="button_otherplant">다양한 식물 둘러보기</string>
+    <string name="button_search">추가 정보 검색하기</string>
+    <string name="button_tutorial">초보 식집사를 위한 튜토리얼</string>
+    <string name="plant_registration">식물 등록</string>
+    <string name="plant_type">식물 종류</string>
+    <string name="plant_type_hint">식물의 종류를 선택해주세요</string>
+    <string name="plant_type_1">스투키</string>
+    <string name="plant_type_2">산세베리아</string>
+    <string name="plant_type_3">몬스테라</string>
+    <string name="plant_type_4">고무나무</string>
+    <string name="plant_type_5">테이블 야자</string>
+    <string name="plant_type_6">로즈마리</string>
+    <string name="plant_type_7">애플민트</string>
+    <string name="plant_type_8">바질 트리</string>
+    <string name="plant_type_9">페퍼민트</string>
+    <string name="plant_type_10">레몬밤</string>
+    <string name="plant_water_day">식물 물주기</string>
+    <string name="plant_nickname">식물 애칭</string>
+    <string name="nickname">식물의 애칭을 입력해주세요.</string>
+    <string name="water_day">DB) 종류 선택하면 물주기 생성</string>
+    <string name="last_water_day">마지막 물준 날</string>
+    <string name="date_picker_actions">마지막으로 물준 날을 선택해주세요</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myP"
+        android:title="내 식물" />
+
+    <item
+        android:id="@+id/otherP"
+        android:title="다른 식물"/>
+
+    <item
+        android:id="@+id/myInfo"
+        android:title="내 정보" />
+
+</menu>

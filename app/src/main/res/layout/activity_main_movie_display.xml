@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity_Movie_Display"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        tools:context="com.sungshin.Puleuspuleus.Select1Activity">
+
+
+        <TextView
+            android:id="@+id/plant_registration"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/plant_registration" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/plant_type"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/plant_type"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dialogtextview1"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:hint="@string/plant_type_hint"
+                    android:textSize="16sp"/>
+
+                <ImageButton
+                    android:id="@+id/dialogbutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/plantwaterday"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/plant_water_day"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/waterday"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="식물 종류에 따른 추천 물주기"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview1_movie"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/plant_nickname" />
+
+                <EditText
+                    android:id="@+id/editTextName_movie"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/nickname"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lastwaterday"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/last_water_day"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/dialogtextview2"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:hint="@string/date_picker_actions"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/dialogbutton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:src="@drawable/ic_baseline_calendar_today" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+
+
+                <Button
+                    android:id="@+id/button1_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:nestedScrollingEnabled="true"
+                    android:onClick="insert"
+                    android:text="저장" />
+
+                <Button
+                    android:id="@+id/button2_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="edit"
+                    android:text="수정" />
+
+
+                <Button
+                    android:id="@+id/button3_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:nestedScrollingEnabled="true"
+                    android:onClick="delete"
+                    android:text="삭제" />
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/txtResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="#FBECE1"
+                android:lines="5" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
+
+

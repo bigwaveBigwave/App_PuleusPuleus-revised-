@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.sungshin.Puleuspuleus.MyActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="개인정보"
+            android:textColor="#313234"
+            android:textSize="9pt" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="이메일"
+                android:textColor="#313234"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/VEmail"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="hong0135@example.com"
+                android:textColor="#313234"
+                android:textSize="8pt" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_my_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="완료"
+            app:backgroundTint="#C3BCBC" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="로그아웃"
+            app:backgroundTint="#C3BCBC" />
+
+    </LinearLayout>
+
+</LinearLayout>

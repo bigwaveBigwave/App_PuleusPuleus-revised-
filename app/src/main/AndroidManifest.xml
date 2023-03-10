@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sungshin.Puleuspuleus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_puleus"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_puleus_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ANDProject">
+        <activity
+            android:name=".MainActivity_Movie_Display"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Movie"
+            android:exported="false" />
+        <activity
+            android:name=".Other_plant_info"
+            android:exported="false" />
+        <activity
+            android:name=".MyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity android:name=".OtherPlantActivity" />
+        <activity android:name=".View_otherActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
